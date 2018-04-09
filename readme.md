@@ -2,18 +2,18 @@
 
 View Masscan project 
 
-[here]: https://github.com/hubert3/masscan	"Masscan"
+[https://github.com/hubert3/masscan](https://github.com/hubert3/masscan "Here")
 
 **How to use it:**
 
 **1.Download capable executable file:**
 
-[32Bit]: https://github.com/arryboom/MasscanForWindows/master/blob/masscan32.exe	"32bit"
-[64Bit]: https://github.com/arryboom/MasscanForWindows/master/blob/masscan64.exe	"64bit"
+[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe "64 Bit")
+[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe "32 Bit")
 
 **2.Install Winpcap**
 
-[Winpcap]: https://www.winpcap.org/	"Winpcap official website"
+[https://www.winpcap.org/](https://www.winpcap.org/ "Winpcap.org")
 
 **3.Run executable file in command shell**:
 
@@ -62,46 +62,35 @@ You got any error like losing **packet.dll**,**wpcap.dll**,or 0x00000007,then yo
 
   for successful compiled the source code from orignal project with VS2013,you'll need to add follow code in \misc\string_s.h below the VS2010 section:
 
-  ```#if defined(_MSC_VER) && (_MSC_VER == 1700)/*Visual Studio 2012*/# include <stdio.h># include <string.h># define strcasecmp     _stricmp# define memcasecmp     _memicmp# ifndef PRIu64#  define PRIu64 "llu"#  define PRId64 "lld"#  define PRIx64 "llx"# endif 
-  #elif defined(_MSC_VER) && (_MSC_VER == 1800)
-  /*Visual Studio 2013*/
-  # include <stdio.h>
-  # include <string.h>
-  # define strcasecmp     _stricmp
-  # define memcasecmp     _memicmp
-  # ifndef PRIu64
-  #  define PRIu64 "llu"
-  #  define PRId64 "lld"
-  #  define PRIx64 "llx"
-  # endif
+  ```
+#if defined(_MSC_VER) && (_MSC_VER == 1800)
+/*Visual Studio 2013*/
+# include <stdio.h>
+# include <string.h>
+# define strcasecmp     _stricmp
+# define memcasecmp     _memicmp
+# ifndef PRIu64
+#  define PRIu64 "llu"
+#  define PRId64 "lld"
+#  define PRIx64 "llx"
+# endif
   ```
 
 **File info:** 
 
 - File: masscan64.exe
-
 - Size: 236544 bytes
-
-- Modified: 04-09-2018,17:36:42
-
+- Modified: 04-09-2018,17\:36\:42
 - MD5: 712CDF0F9CE90680B36AA85FC09DDA59
-
 - SHA1: BAF6B7AA4F5E74F1046BCB4B44908A0761E91D0D
-
 - CRC32: 45824682
 
-  ​
 
 - File: masscan32.exe
-
 - Size: 206848 bytes
-
-- Modified: 04-09-2018,17:36:39
-
+- Modified: 04-09-2018,17\:36\:39
 - MD5: 62C4D1333FE99C35EB805649E4B685B8
-
 - SHA1: 04A18913664450206D38549BF30BAD51D4131080
-
 - CRC32: 5B7B5348
 
-**Thanks hubert3 takes so many sharp tools for us!**
+Thanks **hubert3** takes so many sharp tools for us!
