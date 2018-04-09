@@ -83,9 +83,9 @@ You got any error like losing **packet.dll**,**wpcap.dll**,or 0x00000007,then yo
 - Modified: 04-09-2018,17\:36\:42
 - MD5: 712CDF0F9CE90680B36AA85FC09DDA59
 - SHA1: BAF6B7AA4F5E74F1046BCB4B44908A0761E91D0D
-- CRC32: 45824682
+- CRC32: 45824682  
 
-
+***
 - File: masscan32.exe
 - Size: 206848 bytes
 - Modified: 04-09-2018,17\:36\:39
