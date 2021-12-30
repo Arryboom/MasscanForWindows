@@ -2,7 +2,7 @@
 
 View Masscan project 
 
-[https://github.com/hubert3/masscan](https://github.com/hubert3/masscan "Here")
+[https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan "Here")
 
 **How to use it:**
 
@@ -93,4 +93,4 @@ You got any error like losing **packet.dll**,**wpcap.dll**,or 0x00000007,then yo
 - SHA1: 04A18913664450206D38549BF30BAD51D4131080
 - CRC32: 5B7B5348
 
-Thanks **hubert3** takes so many sharp tools for us!
+Thanks **robertdavidgraham** takes so many sharp tools for us!
