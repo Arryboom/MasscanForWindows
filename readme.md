@@ -8,8 +8,8 @@ View Masscan project
 
 **1.Download capable executable file:**
 
-[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe?raw=true "64 Bit")
-[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe?raw=true "32 Bit")
+[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan64.exe?raw=true "64 Bit")  
+[https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe](https://github.com/Arryboom/MasscanForWindows/blob/master/masscan32.exe?raw=true "32 Bit")  
 
 **2.Install Winpcap**
 
