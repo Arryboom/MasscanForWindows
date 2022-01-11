@@ -58,7 +58,7 @@ You got any error like losing **packet.dll**,**wpcap.dll**,or 0x00000007,then yo
 
 **Compiled with :** 
 
-- VS2013
+- VS2019
 
   for successful compiled the source code from orignal project with VS2013,you'll need to add follow code in \misc\string_s.h below the VS2010 section:
 
@@ -78,19 +78,19 @@ You got any error like losing **packet.dll**,**wpcap.dll**,or 0x00000007,then yo
 
 **File info:** 
 
-- File: masscan64.exe
-- Size: 236544 bytes
-- Modified: 04-09-2018,17\:36\:42
-- MD5: 712CDF0F9CE90680B36AA85FC09DDA59
-- SHA1: BAF6B7AA4F5E74F1046BCB4B44908A0761E91D0D
-- CRC32: 45824682  
+- File: masscan32.exe  
+- Size: 336384 bytes  
+- Modified: 2022-1-11 15:15:40  
+- MD5: AB405C3E3D229623C8A9EF1D77966ABF  
+- SHA1: 77116A498D21F9480602A329AEB024488A396E3A  
+- CRC32: 3D889CF6  
+-   
+- File: masscan64.exe  
+- Size: 403456 bytes  
+- Modified: 2022-1-11 15:14:53  
+- MD5: 01801464AC43A44C489CC00D4D25162C  
+- SHA1: 0E9BE7359D8FDE01199C04C1113B1E9272C93294  
+- CRC32: 693ADD8F  
 
-***
-- File: masscan32.exe
-- Size: 206848 bytes
-- Modified: 04-09-2018,17\:36\:39
-- MD5: 62C4D1333FE99C35EB805649E4B685B8
-- SHA1: 04A18913664450206D38549BF30BAD51D4131080
-- CRC32: 5B7B5348
 
 Thanks **robertdavidgraham** takes so many sharp tools for us!
